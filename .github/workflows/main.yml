@@ -22,8 +22,7 @@ jobs:
         with:
           # If the action needs to install cdk or if it is already globally
           install_cdk: true
-          # The CDK command to run
-          cdk_command: docs
-          # If the action should process the output based on the command ran
+      - name: Check CDK Installation
+        run: cdk --version
         
                 
