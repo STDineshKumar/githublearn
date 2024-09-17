@@ -1,7 +1,7 @@
 name: hello
 on: push
 jobs:
-  hello
+  basic-ubuntu-20:
     runs-on: ubuntu-20.04
     steps:
       - name: helloworld
