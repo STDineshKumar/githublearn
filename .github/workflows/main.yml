@@ -8,8 +8,6 @@ jobs:
       - uses: actions/checkout@v4
       - name: helloworld
         run: echo "Hello World"
-      - name: helloworld
-        run: ls-lrt
       - name: Setup Python
         uses: actions/setup-python@v5.2.0
         with:
