@@ -8,5 +8,4 @@ on:
 jobs:
   call_reusable_workflow:
     uses: STDineshKumar/testing/.github/workflows/testing.yml@main
-    with:
-      input1: "Hello from caller!"
+  
